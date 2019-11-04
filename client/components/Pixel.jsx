@@ -21,11 +21,10 @@ class Pixel extends React.Component {
    
 
   handleClick = () => {
-    console.log('click')
     this.setState({
       style: {
-        height: '20px',
-        width: '20px',
+        height: '10px',
+        width: '10px',
         background: this.randomHexColor()
       }
     })
@@ -33,7 +32,7 @@ class Pixel extends React.Component {
   }
   
   render() {
-    return <div onClick={this.handleClick} style={this.state.style}></div>
+    return <div onClick={this.handleClick} onMouseOver={this.handleClick} style={this.state.style}></div>
   }
 }
 

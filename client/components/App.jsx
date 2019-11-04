@@ -21,7 +21,7 @@ const App = () => {
 const multiply = () => {
   //many components
   let arr = []
-  for (let i = 0; i < 250; i++) {
+  for (let i = 0; i < 2000; i++) {
     arr.push(<Pixel />)
   }
   return arr

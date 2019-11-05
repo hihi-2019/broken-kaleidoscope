@@ -18,7 +18,6 @@ class Pixel extends React.Component {
       .toString(16)
       .padStart(6, 0)}`
   }
-   
 
   handleClick = () => {
     this.setState({
@@ -30,9 +29,29 @@ class Pixel extends React.Component {
     })
     // set state
   }
-  
+
+  turnGreen = () => {
+    this.setState({
+      style: {
+        height: this.changeHeight(),
+        width: this.changeWidth(),
+        background: 'green'
+      }
+    })
+  }
+
+  changeHeight = () => (Math.random() * 40).toString() + 'px'
+
+  changeWidth = () => (Math.random() * 40).toString() + 'px'
+
   render() {
-    return <div onClick={this.handleClick} onMouseOver={this.handleClick} style={this.state.style}></div>
+    return (
+      <div
+        onClick={this.handleClick}
+        onMouseEnter={this.turnGreen}
+        style={this.state.style}
+      ></div>
+    )
   }
 }
 

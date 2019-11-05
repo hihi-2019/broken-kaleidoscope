@@ -1,5 +1,5 @@
-import React from "react";
-import Pixel from "./Pixel";
+import React from "react"
+import Pixel from "./Pixel"
 
 class App extends React.Component {
   constructor(props) {
@@ -8,7 +8,7 @@ class App extends React.Component {
   }
 
   render() {
-    return Array.from({ length: 1000 }, (_, i) => <Pixel key={i} />);
+    return Array.from({ length: 500 }, (_, i) => <Pixel key={i} />);
   }
 }
 

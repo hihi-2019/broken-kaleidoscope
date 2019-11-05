@@ -8,13 +8,13 @@ const randomHexColor = () =>
 class Pixel extends React.Component {
   constructor(props) {
     super(props);
-
+    
     this.state = {
       backgroundColor: this.colorChanger(),
       height: "10px",
       width: "10px"
     };
-
+    
     this.handleClick = this.handleClick.bind(this);
     this.onMouseEnter = this.onMouseEnter.bind(this);
     this.onDragEnter = this.onDragEnter.bind(this);
@@ -70,3 +70,7 @@ class Pixel extends React.Component {
 }
 
 export default Pixel;
+
+
+
+

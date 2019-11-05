@@ -4,16 +4,18 @@ import Pixel from "./Pixel";
 class App extends React.Component {
   constructor(props) {
     super(props);
-
-    // this.state = {
-    // backgroundColor: 'green'
-    // }
+    
   }
 
   render() {
-    return Array.from({ length: 100 }, (_, i) => <Pixel key={i} />);
+    return Array.from({ length: 1000 }, (_, i) => <Pixel key={i} />);
   }
 }
+
+
+export default App;
+
+
 
 // render() {
 //   return (
@@ -337,5 +339,3 @@ class App extends React.Component {
 //     </div>
 //   );
 // }
-
-export default App;

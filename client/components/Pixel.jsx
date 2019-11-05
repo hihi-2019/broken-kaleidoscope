@@ -8,7 +8,7 @@ class Pixel extends React.Component {
       style: {
         height: '20px',
         width: '20px',
-        background: this.randomHexColor()
+        background: 'white'
       }
     }
   }

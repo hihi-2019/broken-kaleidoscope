@@ -1,8 +1,19 @@
 import React from 'react'
+import Pixel from './Pixel'
 
 const App = () => {
   return (
-    <div>React development has begun!</div>
+    
+       
+    //console.log(Array.from({length: 5}, ({Pixel},i) => i));
+    //Array.from({length:1000}), (v,i)=> <Pixel />
+    
+    
+      
+      Array.from({length:100},(_, i) => <Pixel key={i} />);
+      
+        
+
   )
 }
 

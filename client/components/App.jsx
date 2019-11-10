@@ -10,8 +10,12 @@ const App = () => {
     
     
       
-      Array.from({length:100},(_, i) => <Pixel key={i} />);
+      // Array.from({length:100},(_, i) => <Pixel key={i} />);
       
+    
+       <>
+        <Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel /><Pixel />
+       </>
         
 
   )

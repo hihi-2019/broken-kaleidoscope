@@ -22,9 +22,30 @@ class Pixel extends React.Component {
         }
     }
 
+    //Use the event handler to change the component's colour 
+    clickHandler = evt => {
+        this.setState({
+            style : {
+                width:50,
+                height:50,
+                backgroundColor:randomHexColor()
+            }
+        })
+      }
+    
+      mouseHandler = evt => {
+          this.setState({
+              style : {
+                width:10,
+                height:10,
+                backgroundColor: 'white'
+              }
+          })
+      }
+
     render() {
         return (
-            <div style={this.state.style}></div>
+            <div style={this.state.style} onClick={this.clickHandler} onMouseMove={this. mouseHandler }></div>
         )
         
     }

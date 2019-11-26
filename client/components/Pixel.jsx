@@ -15,8 +15,8 @@ class Pixel extends React.Component {
 
         this.state = {
             style: {
-                width: 50,
-                height: 50,
+                width: 10,
+                height: 10,
                 backgroundColor: randomHexColor()
             }
         }
@@ -26,8 +26,8 @@ class Pixel extends React.Component {
     clickHandler = evt => {
         this.setState({
             style: {
-                width: 50,
-                height: 50,
+                width: 10,
+                height: 10,
                 backgroundColor: randomHexColor()
             }
         })
@@ -36,8 +36,8 @@ class Pixel extends React.Component {
     dragHandler = evt => {
         this.setState({
             style: {
-                width: 50,
-                height: 50,
+                width: 10,
+                height: 10,
                 backgroundColor: 'yellow'
             }
         })
@@ -56,8 +56,8 @@ class Pixel extends React.Component {
     mouseHandlerTwo = evt => {
         this.setState({
             style: {
-                width: 50,
-                height: 50,
+                width: 10,
+                height: 10,
                 backgroundColor: 'green'
             }
         })
